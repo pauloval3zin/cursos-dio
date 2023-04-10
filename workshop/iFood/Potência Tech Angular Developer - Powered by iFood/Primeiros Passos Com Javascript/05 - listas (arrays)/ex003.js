@@ -9,7 +9,8 @@ class Tabuada {
 
     fazerTabuada() {
         for (let i = 1; i <= this.quantidadeLinha; i++) {
-            console.log(`${this.tabuadaDo} x ${i} = ${i * this.tabuadaDo}`);
+            const resultado = `${this.tabuadaDo} x ${i} = ${i * this.tabuadaDo}`;
+            console.log(resultado);
         }
     }
 
